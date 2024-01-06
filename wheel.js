@@ -191,7 +191,7 @@ const ridiculed = new Emotion('Ridiculed', '?', ['?', '?'], 'feeling or showing 
 
 // Fear middle layer emotions
 const scared = new Emotion('Scared', '?', ['?', '?'], 'feeling or showing scare', [terrified, frightened], 'fear.png', 'fear.gif');
-const anxious = new Emotion('Anxious', '?', ['?', '?'], 'feeling or showing anxiety', [overwhelmed, worried], 'anxious.png', 'fear.gif');
+const anxious = new Emotion('Anxious', '?', ['Need to be in control', '?'], 'feeling or showing anxiety', [overwhelmed, worried], 'anxious.png', 'fear.gif');
 const insecureUnderFear = new Emotion('Insecure', '', ['Need to be in control', '?'], 'feeling or showing insecurity', [inadequateUnderInsecure, inferior], 'fear.png', 'fear.gif');
 const submissive = new Emotion('Submissive', '?', ['?', '?'], 'feeling or showing submission', [worthless, insignificant], 'fear.png', 'fear.gif');
 const rejected = new Emotion('Rejected', '?', ['?', '?'], 'feeling or showing rejection', [inadequateUnderRejected, alienated], 'fear.png', 'fear.gif');
