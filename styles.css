@@ -1,0 +1,99 @@
+.title {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    padding: 0;
+    color: #000;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.emotion-details-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width: 50%;
+}
+
+#wheelCanvas {
+    display: block;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 1000px;
+}
+
+/* Buttons for selecting wheel type */
+.wheel-type-button-group {
+    display: flex;
+    justify-content: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.wheel-type-button-group button {
+    background-color: #04AA6D;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+}
+
+.wheel-type-button-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.wheel-type-button-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.wheel-type-button-group button:hover {
+    background-color: #3e8e41;
+}
+
+/* Emotion Details */
+#emotion-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+    color: #000;
+}
+
+#emotion-description {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 1rem;
+    margin-right: 50px;
+    padding: 0;
+    color: #000;
+}
+
+#pnas-image {
+    width: 150px;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
