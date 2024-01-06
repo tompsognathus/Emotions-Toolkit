@@ -12,19 +12,21 @@
 .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .emotion-details-column {
     display: flex;
     flex-direction: column;
-    justify-content: top;
+    justify-content: left;
     width: 50%;
+    max-width: 500px;
 }
 
 #wheelCanvas {
     display: block;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 50px;
     top: 0;
     left: 0;
     width: 1000px;
@@ -89,11 +91,21 @@
     margin-right: 50px;
     padding: 0;
     color: #000;
+
+    min-height: 100px;
 }
 
-#pnas-image {
-    width: 150px;
-    height: auto;
+.gallery-item {
+    width: auto;
+    height: 200px;
+}
+
+#meme-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: left;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
